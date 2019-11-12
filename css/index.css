@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;  
+  }
+  
+  body{
+    background-color: #f6f6fc;
+    direction: rtl;
+  }
+  
+  .meal-card{
+    width: 500px;
+    height: 150px;
+    background-color: #fff;
+    margin: 25px auto 0;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: box-shadow ease-in-out 0.3s, opacity 0.4s;
+  }
+  
+  .meal-image{
+    width: 160px;
+    overflow: hidden;
+  }
+  .meal-image img{
+    height: 100%;
+  }
+  .meal-info{
+    width: 340px;
+    padding: 5px 30px 0 20px;
+  }
+  h2{
+    margin-bottom: 0;
+    color: #222f3e;
+    font-size: 22px;
+  }
+  p{
+    margin-top: 10px;
+    color: #6b7886;
+  }
+  .meal-order{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+  }
+  .price{
+    color: #ff9f43;
+    font-family: arial;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .order-button{
+    background-color: #ff9f43; 
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    border:none;
+    font-size: inherit; 
+    cursor: pointer;
+    transition: background-color ease-in-out 0.3s;
+    outline: none;
+  }
+  
+  .order-button:hover{
+    background-color: #ff830c;
+  }
+  .meal-card:hover{
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+  }
+  
